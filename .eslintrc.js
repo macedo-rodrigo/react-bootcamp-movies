@@ -43,5 +43,6 @@ module.exports = {
     "Multiline-termary": "off",
     "react/no-unescaped-entities": "off",
     "comma-dangle": "off",
+    "space-before-function-paren": "off",
   },
 };
