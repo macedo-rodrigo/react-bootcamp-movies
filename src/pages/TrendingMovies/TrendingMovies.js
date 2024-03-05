@@ -8,7 +8,7 @@ import "./TrendingMovies.scss";
 const API_URL_DAY = `${process.env.REACT_APP_API_URL_TRENDS_DAY}`;
 const API_URL_WEEK = `${process.env.REACT_APP_API_URL_TRENDS_WEEK}`;
 const API_KEY = `${process.env.REACT_APP_API_KEY}`;
-const NUM_ITEMS_PER_PAGE = 9;
+const NUM_ITEMS_PER_PAGE = 4;
 
 const TrendingMovies = () => {
   const [apiUrl, setApiUrl] = useState(API_URL_DAY);

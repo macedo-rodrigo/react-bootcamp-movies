@@ -1,4 +1,11 @@
 .footer{
-    border: 1px solid red;
-    padding: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #052641;
+    padding: 50px 20px;
+    &__img {
+        width: 200px;
+        height: 150px;
+    }
 }

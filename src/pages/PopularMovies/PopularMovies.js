@@ -7,7 +7,7 @@ import { FormattedMessage } from "react-intl";
 const API_URL_MOVIE = `${process.env.REACT_APP_API_URL_POPULAR_MOVIE}`;
 const API_URL_TV = `${process.env.REACT_APP_API_URL_POPULAR_TV}`;
 const API_KEY = `${process.env.REACT_APP_API_KEY}`;
-const NUM_ITEMS_PER_PAGE = 9;
+const NUM_ITEMS_PER_PAGE = 4;
 
 const PopularMovies = () => {
   const [apiUrl, setApiUrl] = useState(API_URL_MOVIE)

@@ -1,3 +1,4 @@
+@import "../../Styles/variables.scss";
 .header {
     width: 100vw;
     max-width:100%;  /* added */
@@ -9,6 +10,7 @@
     background-color: #052641;
     &__logo-image {
         width: 165px;
+        max-width: 20vw;
         padding: 0 20px;
         margin-left: 10px;
     }
@@ -19,7 +21,7 @@
     &__section {
         font-size: 18px;
         font-weight: bold;
-        color: #FFFFFF;
+        color: $font-color-dark-background;
     }
     &__nav-and-lang {
         width: 70vw;

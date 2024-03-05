@@ -1,5 +1,9 @@
 .trailer-page {
-  width: 350px;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #052641;
   &__title {
     color: #FFFFFF;
@@ -7,13 +11,22 @@
 }
 
 .trailer-card {
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 0 20px;
   &__movie-title {
     color: #FFFFFF;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    max-width: 300px;
   }
   &__description {
     color: #FFFFFF;
     margin-top: none;
     line-height: 0;
+    margin: 0;
   }
 }
