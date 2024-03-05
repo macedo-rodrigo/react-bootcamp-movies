@@ -1,0 +1,25 @@
+@import "../../Styles/variables.scss";
+.movie-card {
+    text-align: center;
+    &__img {
+        width: 130px;
+        height: 190px;
+        object-fit: contain; //para que la imagen se vea toda, contenida en en tamaño configurado arriba en width y height
+        object-position: bottom center; // donde la imagen estara "pegada"
+        margin: 0 60px;
+        border-radius: 10px;
+    }
+    &__name {
+            font-size: 16px;
+            color: $font-color-clear-background;
+            font-weight: bold;
+            line-height: 1;
+            margin: 0;
+        }
+    &__number {
+            font-size: 14px;
+            color: $font-color-clear-background;
+            line-height: 1;
+            margin: 0;
+        }
+}

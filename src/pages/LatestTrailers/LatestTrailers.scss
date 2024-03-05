@@ -1,0 +1,19 @@
+.trailer-page {
+  width: 350px;
+  background-color: #052641;
+  &__title {
+    color: #FFFFFF;
+  }
+}
+
+.trailer-card {
+    margin-bottom: 30px;
+  &__movie-title {
+    color: #FFFFFF;
+  }
+  &__description {
+    color: #FFFFFF;
+    margin-top: none;
+    line-height: 0;
+  }
+}

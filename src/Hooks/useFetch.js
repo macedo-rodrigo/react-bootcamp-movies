@@ -7,7 +7,10 @@ const useFetch = (apiUrl, apiKey) => {
     if (apiUrl) {
       fetch(apiUrl + apiKey)
         .then((data) => data.json())
-        .then((dataParsed) => setResult(dataParsed));
+        .then((dataParsed) => {
+          // console.log("Parseado", dataParsed);
+          setResult(dataParsed);
+        });
     }
   }, [apiUrl]);
 

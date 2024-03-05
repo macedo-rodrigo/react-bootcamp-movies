@@ -5,4 +5,15 @@ html,
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: $font-color-generic;
+}
+
+button {
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }

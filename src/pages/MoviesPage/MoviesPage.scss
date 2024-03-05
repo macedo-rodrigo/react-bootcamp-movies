@@ -1,0 +1,17 @@
+.movies-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__content {
+        text-align: center;
+    }
+    &__movie-list {
+        display: flex;
+        flex-wrap: wrap; // p saltar a la siguiente línea
+        justify-content: center;
+        max-width: 1250px;
+    }
+    &__section-title {
+        font-size: 24px;
+    }
+}
