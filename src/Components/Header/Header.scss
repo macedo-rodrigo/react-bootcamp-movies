@@ -1,7 +1,5 @@
 @import "../../Styles/variables.scss";
 .header {
-    width: 100vw;
-    max-width:100%;  /* added */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,13 +17,13 @@
         gap: 20px;
     }
     &__section {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
         color: $font-color-dark-background;
     }
     &__nav-and-lang {
-        width: 70vw;
         display: flex;
+        width: 60vw;
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
