@@ -21,6 +21,7 @@ const TrailersPage = ({ movieId }) => {
       setVideoUrl(`https://www.youtube.com/watch?v=${videoKey}=${url}`);
     }
   }, [trailerData]);
+  console.log("La URL de YT es:", videoUrl);
   return (
     <div className="youtube-video">
       <a className="youtube-video__link" href={videoUrl} target="_blank" rel="noreferrer">

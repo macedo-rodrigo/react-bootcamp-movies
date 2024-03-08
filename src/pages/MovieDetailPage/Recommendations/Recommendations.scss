@@ -1,0 +1,20 @@
+.recommendations-page {
+  display: flex;
+  flex-direction: column;
+
+  &__movies {
+    display: flex;
+    overflow-x: auto; 
+    gap: 30px;
+    background-color: beige;
+  }
+  &__movie-img {
+    border-radius: 10px;
+  }
+  &__movie-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-top: 0;
+  }
+}
